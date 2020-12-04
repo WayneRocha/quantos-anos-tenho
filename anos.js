@@ -7,27 +7,27 @@ function ApresentarIdade(){
     if (idade <= 5){
         //bebê
         localdafoto.innerHTML =
-        '<img class="imagem__idade" src="idades/babys.png" alt="Imagem: Bebês">';
+        '<img class="imagem__idade" src="img/babys.png" alt="Imagem: Bebês">';
     }
     else if (idade > 5 && idade <= 10){
         //criança
         localdafoto.innerHTML =
-        '<img class="imagem__idade" src="idades/criancas.png" alt="Imagem: Crianças">';
+        '<img class="imagem__idade" src="img/criancas.png" alt="Imagem: Crianças">';
     }
     else if(idade > 10 && idade <= 18){
         //adolecente
         localdafoto.innerHTML =
-        '<img class="imagem__idade" src="idades/adolecentes.png" alt="Imagem: Adolecentes">';
+        '<img class="imagem__idade" src="img/adolecentes.png" alt="Imagem: Adolecentes">';
     }
     else if(idade > 18 && idade <= 55){
         //adulto
         localdafoto.innerHTML =
-        '<img class="imagem__idade" src="idades/adultos.png" alt="Imagem: Adultos">';
+        '<img class="imagem__idade" src="img/adultos.png" alt="Imagem: Adultos">';
     }
     else{
         //idoso
         localdafoto.innerHTML =
-        '<img class="imagem__idade" src="idades/idosos.png" alt="Imagem: Idosos">';
+        '<img class="imagem__idade" src="img/idosos.png" alt="Imagem: Idosos">';
     }
 }
 function calcularIdade(){
