@@ -13,31 +13,6 @@ body{
 .imagem__idade {
     width: 20vw;
 }
-footer {
-    justify-content: center;
-    z-index: 1;
-    position: absolute;
-    bottom: 0px;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    background-color: #1b1b1b;
-    color: white;
-}
-footer img {
-    margin-top: 1.5vh;
-    width: 32px;
-    height: 32px;
-    margin-left: 5vw;
-    margin-right: 5vw;
-    cursor: pointer;
-    transition: ease-in-out .2s;
-    filter: invert();
-}
-footer img:hover {
-    transform: scale(1.1);
-}
-
 @media (max-width:700px){
     h1, h2{
         margin-left: 20px;
